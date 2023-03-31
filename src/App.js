@@ -42,6 +42,7 @@ function App() {
         'Content-Type':'application/json'
       }
     });
+    fetchMoviesHandler();
   }
 
   // using async await
